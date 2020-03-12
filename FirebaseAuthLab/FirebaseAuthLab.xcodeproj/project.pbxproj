@@ -14,8 +14,7 @@
 		0BB43E14241A7B8200DE8BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E13241A7B8200DE8BC5 /* Assets.xcassets */; };
 		0BB43E17241A7B8200DE8BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E15241A7B8200DE8BC5 /* LaunchScreen.storyboard */; };
 		0BB43E22241A7B8200DE8BC5 /* FirebaseAuthLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB43E21241A7B8200DE8BC5 /* FirebaseAuthLabTests.swift */; };
-		0BB43E2D241A7CB600DE8BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E2C241A7CB600DE8BC5 /* GoogleService-Info.plist */; };
-		0BB43E2E241A7CDA00DE8BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E2C241A7CB600DE8BC5 /* GoogleService-Info.plist */; };
+		0BB43E30241A8C1000DE8BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E2F241A8C1000DE8BC5 /* GoogleService-Info.plist */; };
 		636DA0B0F6DB6452B72654F4 /* Pods_FirebaseAuthLabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2B5A5A9972D09B5587FE71 /* Pods_FirebaseAuthLabTests.framework */; };
 		E0EDB6BDD2FA6960BE4E7381 /* Pods_FirebaseAuthLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE72F657AF944FE2A6407662 /* Pods_FirebaseAuthLab.framework */; };
 /* End PBXBuildFile section */
@@ -42,7 +41,7 @@
 		0BB43E1D241A7B8200DE8BC5 /* FirebaseAuthLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseAuthLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB43E21241A7B8200DE8BC5 /* FirebaseAuthLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthLabTests.swift; sourceTree = "<group>"; };
 		0BB43E23241A7B8200DE8BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BB43E2C241A7CB600DE8BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BB43E2F241A8C1000DE8BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		62C1896C3B1A55C88C673B99 /* Pods-FirebaseAuthLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAuthLab.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseAuthLab/Pods-FirebaseAuthLab.debug.xcconfig"; sourceTree = "<group>"; };
 		7A2B5A5A9972D09B5587FE71 /* Pods_FirebaseAuthLabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseAuthLabTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC70464B5AB6838D51A9AA3 /* Pods-FirebaseAuthLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAuthLab.release.xcconfig"; path = "Target Support Files/Pods-FirebaseAuthLab/Pods-FirebaseAuthLab.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,7 +109,7 @@
 				0BB43E13241A7B8200DE8BC5 /* Assets.xcassets */,
 				0BB43E15241A7B8200DE8BC5 /* LaunchScreen.storyboard */,
 				0BB43E18241A7B8200DE8BC5 /* Info.plist */,
-				0BB43E2C241A7CB600DE8BC5 /* GoogleService-Info.plist */,
+				0BB43E2F241A8C1000DE8BC5 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseAuthLab;
 			sourceTree = "<group>";
@@ -219,9 +218,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB43E30241A8C1000DE8BC5 /* GoogleService-Info.plist in Resources */,
 				0BB43E17241A7B8200DE8BC5 /* LaunchScreen.storyboard in Resources */,
 				0BB43E14241A7B8200DE8BC5 /* Assets.xcassets in Resources */,
-				0BB43E2D241A7CB600DE8BC5 /* GoogleService-Info.plist in Resources */,
 				0BB43E12241A7B7E00DE8BC5 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BB43E2E241A7CDA00DE8BC5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
