@@ -112,8 +112,8 @@
 			children = (
 				0BB43E0A241A7B7E00DE8BC5 /* AppDelegate.swift */,
 				0BB43E0C241A7B7E00DE8BC5 /* SceneDelegate.swift */,
-				0BB43E0E241A7B7E00DE8BC5 /* ViewController.swift */,
 				0BB43E31241A8E8800DE8BC5 /* AuthSession.swift */,
+				0BB43E0E241A7B7E00DE8BC5 /* ViewController.swift */,
 				0BB43E33241A978200DE8BC5 /* UIViewController+Navigation.swift */,
 				0BB43E35241A98F600DE8BC5 /* Profile.storyboard */,
 				0BB43E37241A9C4400DE8BC5 /* ProfileViewController.swift */,

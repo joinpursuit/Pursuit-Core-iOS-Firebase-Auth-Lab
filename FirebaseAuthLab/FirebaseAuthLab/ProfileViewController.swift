@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class ProfileViewController: UIViewController {
 
@@ -17,24 +18,47 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func updateButton(_ sender: UIButton) {
+        guard let request = Auth.auth().currentUser?.createProfileChangeRequest() else {
+            return
+        }
+        
+        request.displayName = nameTextField.text
+        request.commitChanges { error in
+            if let error = error {
+                print(error)
+            }
+        }
     }
     
     @IBAction func signOut(_ sender: UIButton) {
+        try? Auth.auth().signOut()
+        UIViewController.showViewController(from: "Login", id: "loginVC")
+
     }
+    
     @IBAction func deletePressed(_ sender: UIButton) {
+        Auth.auth().currentUser?.delete(completion: nil)
+        UIViewController.showViewController(from: "Login", id: "loginVC")
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    private func loadData() {
+        if let user = Auth.auth().currentUser {
+            nameTextField.text = user.displayName
+            numberTextField.text = user.phoneNumber
+            emailTextField.text = user.email
+        }
     }
-    */
+    
+    
 
+}
+
+extension ProfileViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 }

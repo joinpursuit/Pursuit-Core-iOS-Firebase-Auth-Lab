@@ -35,8 +35,11 @@ class ViewController: UIViewController {
         guard let email = emailTextField.text, !email.isEmpty,
             let password = passwordTextField.text, !password.isEmpty else {
                 errorLabel.text = "Fields are empty."
+                errorLabel.isHidden = false
                 return
         }
+        
+        userFlow(email, password: password)
     }
     
     @IBAction func changeButtonPressed(_ sender: UIButton) {
@@ -63,9 +66,11 @@ class ViewController: UIViewController {
             case .failure(let error):
                 DispatchQueue.main.async {
                     self?.errorLabel.text = error.localizedDescription
+                    self?.errorLabel.isHidden = false
                 }
             case .success(let result):
                 print(result.description)
+                UIViewController.showViewController(from: "Profile", id: "profileVC")
             }
         }
         } else {
@@ -74,9 +79,11 @@ class ViewController: UIViewController {
                 case .failure(let error):
                     DispatchQueue.main.async {
                         self?.errorLabel.text = error.localizedDescription
+                        self?.errorLabel.isHidden = false
                     }
                 case .success(let result):
                     print(result.description)
+                    UIViewController.showViewController(from: "Profile", id: "profileVC")
                 }
             }
         }
