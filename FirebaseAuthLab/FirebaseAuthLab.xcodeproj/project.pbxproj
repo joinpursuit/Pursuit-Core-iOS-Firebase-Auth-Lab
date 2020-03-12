@@ -14,6 +14,8 @@
 		0BB43E14241A7B8200DE8BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E13241A7B8200DE8BC5 /* Assets.xcassets */; };
 		0BB43E17241A7B8200DE8BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E15241A7B8200DE8BC5 /* LaunchScreen.storyboard */; };
 		0BB43E22241A7B8200DE8BC5 /* FirebaseAuthLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB43E21241A7B8200DE8BC5 /* FirebaseAuthLabTests.swift */; };
+		0BB43E2D241A7CB600DE8BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E2C241A7CB600DE8BC5 /* GoogleService-Info.plist */; };
+		0BB43E2E241A7CDA00DE8BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E2C241A7CB600DE8BC5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 		0BB43E1D241A7B8200DE8BC5 /* FirebaseAuthLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseAuthLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB43E21241A7B8200DE8BC5 /* FirebaseAuthLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthLabTests.swift; sourceTree = "<group>"; };
 		0BB43E23241A7B8200DE8BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB43E2C241A7CB600DE8BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 				0BB43E13241A7B8200DE8BC5 /* Assets.xcassets */,
 				0BB43E15241A7B8200DE8BC5 /* LaunchScreen.storyboard */,
 				0BB43E18241A7B8200DE8BC5 /* Info.plist */,
+				0BB43E2C241A7CB600DE8BC5 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseAuthLab;
 			sourceTree = "<group>";
@@ -182,6 +186,7 @@
 			files = (
 				0BB43E17241A7B8200DE8BC5 /* LaunchScreen.storyboard in Resources */,
 				0BB43E14241A7B8200DE8BC5 /* Assets.xcassets in Resources */,
+				0BB43E2D241A7CB600DE8BC5 /* GoogleService-Info.plist in Resources */,
 				0BB43E12241A7B7E00DE8BC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB43E2E241A7CDA00DE8BC5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
