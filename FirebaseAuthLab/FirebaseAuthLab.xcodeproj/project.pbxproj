@@ -3,19 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0BB43E0B241A7B7E00DE8BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB43E0A241A7B7E00DE8BC5 /* AppDelegate.swift */; };
 		0BB43E0D241A7B7E00DE8BC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB43E0C241A7B7E00DE8BC5 /* SceneDelegate.swift */; };
 		0BB43E0F241A7B7E00DE8BC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB43E0E241A7B7E00DE8BC5 /* ViewController.swift */; };
-		0BB43E12241A7B7E00DE8BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E10241A7B7E00DE8BC5 /* Main.storyboard */; };
+		0BB43E12241A7B7E00DE8BC5 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E10241A7B7E00DE8BC5 /* Login.storyboard */; };
 		0BB43E14241A7B8200DE8BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E13241A7B8200DE8BC5 /* Assets.xcassets */; };
 		0BB43E17241A7B8200DE8BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E15241A7B8200DE8BC5 /* LaunchScreen.storyboard */; };
 		0BB43E22241A7B8200DE8BC5 /* FirebaseAuthLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB43E21241A7B8200DE8BC5 /* FirebaseAuthLabTests.swift */; };
 		0BB43E2D241A7CB600DE8BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E2C241A7CB600DE8BC5 /* GoogleService-Info.plist */; };
 		0BB43E2E241A7CDA00DE8BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BB43E2C241A7CB600DE8BC5 /* GoogleService-Info.plist */; };
+		636DA0B0F6DB6452B72654F4 /* Pods_FirebaseAuthLabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2B5A5A9972D09B5587FE71 /* Pods_FirebaseAuthLabTests.framework */; };
+		E0EDB6BDD2FA6960BE4E7381 /* Pods_FirebaseAuthLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE72F657AF944FE2A6407662 /* Pods_FirebaseAuthLab.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +35,7 @@
 		0BB43E0A241A7B7E00DE8BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BB43E0C241A7B7E00DE8BC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0BB43E0E241A7B7E00DE8BC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0BB43E11241A7B7E00DE8BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BB43E11241A7B7E00DE8BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		0BB43E13241A7B8200DE8BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BB43E16241A7B8200DE8BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BB43E18241A7B8200DE8BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,6 +43,12 @@
 		0BB43E21241A7B8200DE8BC5 /* FirebaseAuthLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthLabTests.swift; sourceTree = "<group>"; };
 		0BB43E23241A7B8200DE8BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BB43E2C241A7CB600DE8BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		62C1896C3B1A55C88C673B99 /* Pods-FirebaseAuthLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAuthLab.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseAuthLab/Pods-FirebaseAuthLab.debug.xcconfig"; sourceTree = "<group>"; };
+		7A2B5A5A9972D09B5587FE71 /* Pods_FirebaseAuthLabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseAuthLabTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC70464B5AB6838D51A9AA3 /* Pods-FirebaseAuthLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAuthLab.release.xcconfig"; path = "Target Support Files/Pods-FirebaseAuthLab/Pods-FirebaseAuthLab.release.xcconfig"; sourceTree = "<group>"; };
+		CE72F657AF944FE2A6407662 /* Pods_FirebaseAuthLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseAuthLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20D227EC7E9E5ECF5DADEE3 /* Pods-FirebaseAuthLabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAuthLabTests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseAuthLabTests/Pods-FirebaseAuthLabTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F82DD8B704F6B6BFE5017FB3 /* Pods-FirebaseAuthLabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAuthLabTests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseAuthLabTests/Pods-FirebaseAuthLabTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0EDB6BDD2FA6960BE4E7381 /* Pods_FirebaseAuthLab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,18 +64,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636DA0B0F6DB6452B72654F4 /* Pods_FirebaseAuthLabTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030576925314BC21484BB9F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE72F657AF944FE2A6407662 /* Pods_FirebaseAuthLab.framework */,
+				7A2B5A5A9972D09B5587FE71 /* Pods_FirebaseAuthLabTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0BB43DFE241A7B7E00DE8BC5 = {
 			isa = PBXGroup;
 			children = (
 				0BB43E09241A7B7E00DE8BC5 /* FirebaseAuthLab */,
 				0BB43E20241A7B8200DE8BC5 /* FirebaseAuthLabTests */,
 				0BB43E08241A7B7E00DE8BC5 /* Products */,
+				51FA3C125C9F89771D27C8B9 /* Pods */,
+				030576925314BC21484BB9F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,7 +106,7 @@
 				0BB43E0A241A7B7E00DE8BC5 /* AppDelegate.swift */,
 				0BB43E0C241A7B7E00DE8BC5 /* SceneDelegate.swift */,
 				0BB43E0E241A7B7E00DE8BC5 /* ViewController.swift */,
-				0BB43E10241A7B7E00DE8BC5 /* Main.storyboard */,
+				0BB43E10241A7B7E00DE8BC5 /* Login.storyboard */,
 				0BB43E13241A7B8200DE8BC5 /* Assets.xcassets */,
 				0BB43E15241A7B8200DE8BC5 /* LaunchScreen.storyboard */,
 				0BB43E18241A7B8200DE8BC5 /* Info.plist */,
@@ -103,6 +124,17 @@
 			path = FirebaseAuthLabTests;
 			sourceTree = "<group>";
 		};
+		51FA3C125C9F89771D27C8B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62C1896C3B1A55C88C673B99 /* Pods-FirebaseAuthLab.debug.xcconfig */,
+				7FC70464B5AB6838D51A9AA3 /* Pods-FirebaseAuthLab.release.xcconfig */,
+				D20D227EC7E9E5ECF5DADEE3 /* Pods-FirebaseAuthLabTests.debug.xcconfig */,
+				F82DD8B704F6B6BFE5017FB3 /* Pods-FirebaseAuthLabTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BB43E26241A7B8200DE8BC5 /* Build configuration list for PBXNativeTarget "FirebaseAuthLab" */;
 			buildPhases = (
+				E23C9764756348408FED7C10 /* [CP] Check Pods Manifest.lock */,
 				0BB43E03241A7B7E00DE8BC5 /* Sources */,
 				0BB43E04241A7B7E00DE8BC5 /* Frameworks */,
 				0BB43E05241A7B7E00DE8BC5 /* Resources */,
+				C65597E4510506344322B990 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,6 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BB43E29241A7B8200DE8BC5 /* Build configuration list for PBXNativeTarget "FirebaseAuthLabTests" */;
 			buildPhases = (
+				F238FDC3C33F5AB55A16C426 /* [CP] Check Pods Manifest.lock */,
 				0BB43E19241A7B8200DE8BC5 /* Sources */,
 				0BB43E1A241A7B8200DE8BC5 /* Frameworks */,
 				0BB43E1B241A7B8200DE8BC5 /* Resources */,
@@ -187,7 +222,7 @@
 				0BB43E17241A7B8200DE8BC5 /* LaunchScreen.storyboard in Resources */,
 				0BB43E14241A7B8200DE8BC5 /* Assets.xcassets in Resources */,
 				0BB43E2D241A7CB600DE8BC5 /* GoogleService-Info.plist in Resources */,
-				0BB43E12241A7B7E00DE8BC5 /* Main.storyboard in Resources */,
+				0BB43E12241A7B7E00DE8BC5 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +235,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C65597E4510506344322B990 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseAuthLab/Pods-FirebaseAuthLab-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseAuthLab/Pods-FirebaseAuthLab-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseAuthLab/Pods-FirebaseAuthLab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E23C9764756348408FED7C10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseAuthLab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F238FDC3C33F5AB55A16C426 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseAuthLabTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0BB43E03241A7B7E00DE8BC5 /* Sources */ = {
@@ -231,12 +330,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0BB43E10241A7B7E00DE8BC5 /* Main.storyboard */ = {
+		0BB43E10241A7B7E00DE8BC5 /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0BB43E11241A7B7E00DE8BC5 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		0BB43E15241A7B8200DE8BC5 /* LaunchScreen.storyboard */ = {
@@ -366,6 +465,7 @@
 		};
 		0BB43E27241A7B8200DE8BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C1896C3B1A55C88C673B99 /* Pods-FirebaseAuthLab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -384,6 +484,7 @@
 		};
 		0BB43E28241A7B8200DE8BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC70464B5AB6838D51A9AA3 /* Pods-FirebaseAuthLab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -402,6 +503,7 @@
 		};
 		0BB43E2A241A7B8200DE8BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D20D227EC7E9E5ECF5DADEE3 /* Pods-FirebaseAuthLabTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -424,6 +526,7 @@
 		};
 		0BB43E2B241A7B8200DE8BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F82DD8B704F6B6BFE5017FB3 /* Pods-FirebaseAuthLabTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
