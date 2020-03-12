@@ -58,7 +58,6 @@ playground.xcworkspace
 #
 # Add this line if you want to avoid checking in source code from the Xcode workspace
 # *.xcworkspace
-GoogleService-Info.plist
 
 # Carthage
 #
@@ -89,3 +88,5 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+GoogleService-Info.plist
